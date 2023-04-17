@@ -71,7 +71,7 @@ const Box = () => {
       <div className="container max-w-5xl mx-auto  ">
         <h1 className="text-4xl p-2 text-center mt-8">Our Tour</h1>
         <div className="w-24  center h-1 mb-10 bg-green-400 mx-auto"></div>
-        <div  className="grid gap-8 items-start lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center">
+        <div  className="grid gap-8 items-start lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center">
           {info.map((data, index) => (
             <div className="xl:w-full shadow-md shadow-zinc-400 rounded-xl w-5/6 ">
               <div className="relative ">
